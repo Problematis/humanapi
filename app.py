@@ -31,7 +31,7 @@ def humanapi_callback():
 
     # Fetch user profile
     profile = auth_session.get('profile').json()
-    print profile
+    print (profile)
 
     session['id'] = profile['userId'] 
     session['email'] = profile['email'] 
