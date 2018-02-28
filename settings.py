@@ -2,8 +2,8 @@ from os import environ as env
 
 try:
     # OAuth2 client ID and secret
-    CLIENT_ID = env['9a05e766bcbe2e041cf4f2de7c47d1fece342123']
-    CLIENT_SECRET = env['b81de923a944e070c397b08a78b133f813b83522']
+    CLIENT_ID = env['CLIENT_ID']
+    CLIENT_SECRET = env['CLIENT_SECRET']
 
     # Just use client secret as key for signing session cookies
     SECRET_KEY = CLIENT_SECRET
